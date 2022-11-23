@@ -18,6 +18,15 @@ body{
   align-items: center;
 }
 
+p{
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+h2{
+  font-size: 2rem;
+  margin: 1rem;
+}
+
 /* FORMULARIO */
 h1{
   font-size: 3rem;
@@ -84,4 +93,39 @@ a{
 
 .error ul{
   list-style: none;
+}
+
+/* TABLAS */
+table{
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+}
+table thead tr{
+  background-color: #385ec7;
+  color: white;
+  text-align: left;
+  font-weight: 900;
+}
+table th,
+table td{
+  padding: 0.5rem;
+}
+table tbody tr{
+  border-bottom: 1px solid #ddd;
+}
+table tbody tr:hover{
+  background-color: #f5f5f5;
+}
+.logout{
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid gray;
+  background-color: #dd2020;
+  color: white;
+  font-size: 1.2rem;
 }
