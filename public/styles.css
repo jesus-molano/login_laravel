@@ -1,0 +1,87 @@
+/* GENERAL */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FORMULARIO */
+h1{
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: 900;
+  color: #385ec7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  background-color: aliceblue;
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+}
+
+input {
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #9cb3f3;
+}
+input:hover,
+input:focus {
+  border: 2px solid #4a64ac;
+  outline: none;
+}
+
+button{
+  padding:1rem 0.5rem;
+  border-radius: 8px;
+  border: 1px solid gray;
+  background-color: #385ec7;
+  color: white;
+  width: 100%;
+  font-size: 1.2rem;
+}
+button:hover{
+  background-color: #2a4e9c;
+  cursor: pointer;
+}
+button:focus{
+  background-color: #2a4e9c;
+}
+a{
+  color: #385ec7;
+  font-weight: 700;
+}
+
+.error {
+  background-color: #f38c9d;
+  color: #681c29;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.error ul{
+  list-style: none;
+}
