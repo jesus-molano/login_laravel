@@ -8,7 +8,7 @@ Utilizar el comando `cd` para dirigirse a la carpeta del proyecto
 ```
 composer install
 ```
-## 3. Verificar en el archivo .env la base de datos
+## 3. Verificar que la base de datos está creada y comprobar en el archivo .env
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -21,11 +21,15 @@ DB_PASSWORD=
 ```
 php artisan migrate:fresh --seed
 ```
-## 5. Iniciar el servidor
+## 5. Generar la llave
+```
+php artisan key:generate
+```
+## 6. Iniciar el servidor
 ```
 php artisan serve
 ```
-## 6. Ingresar a la aplicación
+## 7. Ingresar a la aplicación
 ```
 http://localhost:8000
 ```
